@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-opensans text-charcoal bg-light;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair text-charcoal-dark;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl font-bold;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl font-semibold;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl font-semibold;
+  }
+  
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-16 px-6 md:px-12 max-w-7xl mx-auto;
+  }
+  
+  .section-title {
+    @apply text-center mb-12 relative;
+  }
+  
+  .section-title::after {
+    @apply content-[''] absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-gold;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-full font-semibold transition-all duration-300 inline-block;
+  }
+  
+  .btn-primary {
+    @apply bg-royal text-white hover:bg-royal-dark;
+  }
+  
+  .btn-secondary {
+    @apply bg-gold text-charcoal-dark hover:bg-gold-dark;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply hover:shadow-lg hover:-translate-y-1;
+  }
+  
+  .skill-badge {
+    @apply bg-light px-4 py-2 rounded-full text-sm font-medium text-charcoal inline-block m-1 transition-all duration-300 hover:bg-gold-light;
+  }
+  
+  .timeline-item {
+    @apply relative pl-8 pb-8 border-l-2 border-royal ml-4;
+  }
+  
+  .timeline-dot {
+    @apply absolute left-0 top-0 -translate-x-1/2 w-4 h-4 rounded-full bg-gold;
+  }
+}

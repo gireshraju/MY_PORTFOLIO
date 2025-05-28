@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Activity, MapPin, ChessKnight, Globe } from 'lucide-react';
+import { Activity, MapPin, Chess, Globe } from 'lucide-react';
 
 const hobbies = [
   {
@@ -13,7 +13,7 @@ const hobbies = [
   },
   {
     name: 'Playing Chess',
-    icon: <ChessKnight size={32} className="text-royal" />
+    icon: <Chess size={32} className="text-royal" />
   },
   {
     name: 'Browsing the Internet',

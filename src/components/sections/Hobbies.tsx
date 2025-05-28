@@ -1,15 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Cricket, Mountains, ChessKnight, Globe } from 'lucide-react';
+import { CricketBall, Mountain, ChessKnight, Globe } from 'lucide-react';
 
 const hobbies = [
   {
     name: 'Watching Cricket',
-    icon: <Cricket size={32} className="text-royal" />
+    icon: <CricketBall size={32} className="text-royal" />
   },
   {
     name: 'Sightseeing',
-    icon: <Mountains size={32} className="text-royal" />
+    icon: <Mountain size={32} className="text-royal" />
   },
   {
     name: 'Playing Chess',
@@ -23,7 +23,7 @@ const hobbies = [
 
 const Hobbies: React.FC = () => {
   return (
-    <section id="hobbies\" className="section bg-white">
+    <section id="hobbies" className="section bg-white">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

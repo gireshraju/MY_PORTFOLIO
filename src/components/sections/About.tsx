@@ -10,24 +10,15 @@ const About: React.FC = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <h2 className="section-title pb-4">About Me</h2>
-        
-        <div className="flex flex-col md:flex-row gap-10 items-center mt-12">
-          <motion.div 
-            className="md:w-1/3"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+        <h2 className="section-title pb-4 text-center">About Me</h2>
+
+        <div className="flex justify-center items-center mt-12">
+          <motion.div
+            className="max-w-3xl text-center"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.8 }}
-          >
-          </motion.div>
-          
-          <motion.div 
-            className="md:w-2/3"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.5, duration: 0.8 }}
           >
             <div className="card">
               <p className="text-lg leading-relaxed">

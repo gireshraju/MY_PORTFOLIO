@@ -22,7 +22,7 @@ const About: React.FC = () => {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden border-4 border-gold">
               <img 
-                src="gireshraju.jpg" 
+                src="GireshRaju.jpg" 
                 alt="Giresh Raju Adimulam" 
                 className="w-full h-full object-cover"
               />

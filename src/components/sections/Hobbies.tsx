@@ -1,15 +1,16 @@
+```tsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import { CricketBall, Mountain, ChessKnight, Globe } from 'lucide-react';
+import { Activity, MapPin, ChessKnight, Globe } from 'lucide-react';
 
 const hobbies = [
   {
     name: 'Watching Cricket',
-    icon: <CricketBall size={32} className="text-royal" />
+    icon: <Activity size={32} className="text-royal" />
   },
   {
     name: 'Sightseeing',
-    icon: <Mountain size={32} className="text-royal" />
+    icon: <MapPin size={32} className="text-royal" />
   },
   {
     name: 'Playing Chess',
@@ -55,3 +56,4 @@ const Hobbies: React.FC = () => {
 };
 
 export default Hobbies;
+```

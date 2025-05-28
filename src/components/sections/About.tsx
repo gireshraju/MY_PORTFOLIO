@@ -22,8 +22,8 @@ const About: React.FC = () => {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden border-4 border-gold">
               <img 
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
-                alt="Professional Portrait" 
+                src="/images/gireshraju.jpg" 
+                alt="Giresh Raju Adimulam" 
                 className="w-full h-full object-cover"
               />
             </div>

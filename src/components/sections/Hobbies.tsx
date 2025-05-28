@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Activity, MapPin, Chess, Globe } from 'lucide-react';
+import { Activity, MapPin, Gamepad, Globe } from 'lucide-react';
 
 const hobbies = [
   {
@@ -12,8 +12,8 @@ const hobbies = [
     icon: <MapPin size={32} className="text-royal" />
   },
   {
-    name: 'Playing Chess',
-    icon: <Chess size={32} className="text-royal" />
+    name: 'Playing Games',
+    icon: <Gamepad size={32} className="text-royal" />
   },
   {
     name: 'Browsing the Internet',
